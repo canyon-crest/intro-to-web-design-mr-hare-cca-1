@@ -25,7 +25,7 @@ jobs:
         echo "css_path=$CSS" >> "$GITHUB_OUTPUT"
 
     # three-paragraphs (3 </p>)
-    - name: Three closing P tags
+    - name: Three paragraphs
       id: three-paragraphs
       uses: classroom-resources/autograding-io-grader@v1
       with:
@@ -42,7 +42,7 @@ jobs:
         max-score: 10
 
     # linking-stylesheet (rel="stylesheet")
-    - name: rel="stylesheet" present
+    - name: Linking Styles Sheet
       id: linking-stylesheet
       uses: classroom-resources/autograding-io-grader@v1
       with:
@@ -58,7 +58,7 @@ jobs:
         max-score: 5
 
     # correct-heading-tags (3 </h3>, 1 </h2>, 1 </h1>)
-    - name: Heading closers mix
+    - name: Correct Heading Tags
       id: correct-heading-tags
       uses: classroom-resources/autograding-io-grader@v1
       with:
@@ -77,7 +77,7 @@ jobs:
         max-score: 5
 
     # three-images-with-wrapped-text (3 "<img " + float: in CSS)
-    - name: IMG + float in CSS
+    - name: Three Images with Wrapped Text
       id: three-images-with-wrapped-text
       uses: classroom-resources/autograding-io-grader@v1
       with:
@@ -96,7 +96,7 @@ jobs:
         max-score: 5
 
     # three-links (3 </a>)
-    - name: Three closing anchor tags
+    - name: Three Links
       id: three-links
       uses: classroom-resources/autograding-io-grader@v1
       with:
@@ -113,7 +113,7 @@ jobs:
         max-score: 5
 
     # container-plus-extra-div (at least 2 </div>)
-    - name: Two closing DIV tags
+    - name: Container Plus 2nd Div
       id: container-plus-extra-div
       uses: classroom-resources/autograding-io-grader@v1
       with:
@@ -130,7 +130,7 @@ jobs:
         max-score: 10
 
     # use-of-classes (3 class= in HTML + at least one .class selector in CSS)
-    - name: Class attributes + CSS dot selector
+    - name: Class Attributes and Selector
       id: use-of-classes
       uses: classroom-resources/autograding-io-grader@v1
       with:
@@ -149,7 +149,7 @@ jobs:
         max-score: 10
 
     # misc-css-properties (padding, margin, border, line-height, font)
-    - name: Core CSS properties
+    - name: Misc CSS properties
       id: misc-css-properties
       uses: classroom-resources/autograding-io-grader@v1
       with:
@@ -169,7 +169,7 @@ jobs:
         max-score: 10
 
     # pseudo-selectors (:hover / :visited / :active)
-    - name: CSS pseudo-classes
+    - name: CSS Pseudo-classes
       id: pseudo-selectors
       uses: classroom-resources/autograding-io-grader@v1
       with:
@@ -186,7 +186,7 @@ jobs:
         max-score: 5
 
     # three-breakpoints (3 occurrences of @media ... max-width)
-    - name: CSS media queries
+    - name: Three Breakpoints (@media)
       id: three-breakpoints
       uses: classroom-resources/autograding-io-grader@v1
       with:
