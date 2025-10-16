@@ -1,91 +1,88 @@
 body{
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(54, 54, 54);
     color: #fff;
     font-family: arial;
-    margin:0
+    margin: 0;
 }
 #container{
-    width: 800px;
+    width:800px;
     margin: 0 auto;
-    background-color: rgb(146, 1, 1);
-    padding: 40px;
-    border-left: #000 solid 4px;
-    border-right: #000 solid 4px;
+    background-color: #900;
+    padding: 30px 60px;
+    border-left: 5px double white;
+    border-right: 5px double white;
 }
 h1{
     background-color: black;
-    border: #fff, solid, 3px;
+    border: 3px solid white ;
     border-radius: 15px;
     padding: 20px;
-    /* margin-bottom: 30px; */
-    width: 60%;
     text-align: center;
-    margin: 0 auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 60%;
+    margin: 5px auto;
+    font-family: georgia;
 }
 h2{
+    font-size: 1.3em;
     text-align: center;
-    font-size: 1.2em;
     font-style: italic;
 }
 h3{
-    border-left: groove 20px rgb(255, 255, 255);
-    border-radius: 30px;
+    padding: 5px;
+    border-left: 20px double #000000;
     padding-left: 15px;
+    border-radius: 20px;
+    border-bottom: 2px solid #000000;
+    width: 150px;
+    background-color: rgb(190, 0, 0);
 }
 p{
     line-height: 2.2em;
+    background-color: #4d4d4d;
+    padding: 20px;
+    border: 2px dotted black;
 }
 img{
-    float: left;
     width: 300px;
-    border: #fff solid 3px;
+    border: 2px solid white;
     border-radius: 15px;
+    float: left;
     margin-right: 20px;
 }
 /* PSEUDO SELECTORS */
 a:link{
-    color: aqua;
+    color: rgb(255, 92, 92);
     text-decoration: none;
     font-weight: bold;
 }
 a:visited{
-    color:rgb(0, 161, 161);
+    color: rgb(192, 12, 12);
 }
 a:hover{
-    color:rgb(184, 255, 255);
+    color: red;
     text-decoration: underline;
 }
 a:active{
-    color:blue;
-}
-h3:hover{
-    border-color: red;
+    color: white;
 }
 /* ID RULES */
 #pic1{
     border: none;
-    width: 200px;
-} 
+    width:250px;
+}
 #pic2{
-    float: right;
+    float:right;
+    margin-left: 10px;
     margin-right: 0;
-    margin-left: 20px;
 }
 #p2{
-    border: #fff dotted 2px;
-    padding: 20px;
-    background-color: brown;
+    background-color: #333;
 }
 /* CLASS RULE */
 .highlight{
+    background-color:yellow;
+    color:black;
+    padding: 2px;
+    border-radius: 3px;
     font-weight: bold;
-    background-color: yellow;
-    padding: 3px;
-    color:#000;
-    border-radius: 15px;
 }
-.highlight:hover{
-    background-color: rgb(255, 255, 120);
-}
-
