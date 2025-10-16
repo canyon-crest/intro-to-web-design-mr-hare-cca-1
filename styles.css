@@ -1,1 +1,91 @@
+body{
+    background-color: rgb(78, 78, 78);
+    color: #fff;
+    font-family: arial;
+    margin:0
+}
+#container{
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(146, 1, 1);
+    padding: 40px;
+    border-left: #000 solid 4px;
+    border-right: #000 solid 4px;
+}
+h1{
+    background-color: black;
+    border: #fff, solid, 3px;
+    border-radius: 15px;
+    padding: 20px;
+    /* margin-bottom: 30px; */
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+}
+h3{
+    border-left: groove 20px rgb(255, 255, 255);
+    border-radius: 30px;
+    padding-left: 15px;
+}
+p{
+    line-height: 2.2em;
+}
+img{
+    float: left;
+    width: 300px;
+    border: #fff solid 3px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+/* PSEUDO SELECTORS */
+a:link{
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color:rgb(0, 161, 161);
+}
+a:hover{
+    color:rgb(184, 255, 255);
+    text-decoration: underline;
+}
+a:active{
+    color:blue;
+}
+h3:hover{
+    border-color: red;
+}
+/* ID RULES */
+#pic1{
+    border: none;
+    width: 200px;
+} 
+#pic2{
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
+#p2{
+    border: #fff dotted 2px;
+    padding: 20px;
+    background-color: brown;
+}
+/* CLASS RULE */
+.highlight{
+    font-weight: bold;
+    background-color: yellow;
+    padding: 3px;
+    color:#000;
+    border-radius: 15px;
+}
+.highlight:hover{
+    background-color: rgb(255, 255, 120);
+}
 
